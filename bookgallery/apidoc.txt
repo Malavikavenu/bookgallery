@@ -1,0 +1,11 @@
+schema:books
+fields:title,author,language,price,genre
+
+schema:Review
+fields:user,comment,rating,book_object
+
+=====api for adding Review
+
+    url:lh:8000/api/books/{id}/add_review/
+    method:post
+
